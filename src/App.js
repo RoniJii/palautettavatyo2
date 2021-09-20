@@ -106,9 +106,9 @@ function App() {
           <tr key={uuidv4()}>
             <td><a href={item.url} rel="noreferrer">{item.title}</a>
             <p>Written {item.byline}</p></td>
-            <td><figure>
+     {/*        <td><figure>
             <img src={item.multimedia[0].url} alt=""></img>
-            <figcaption>{item.multimedia[0].copyright}</figcaption></figure></td>
+            <figcaption>{item.multimedia[0].copyright}</figcaption></figure></td> */}
           </tr>
         ))}
     </tbody>
