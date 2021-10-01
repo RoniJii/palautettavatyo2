@@ -1,16 +1,15 @@
 
-/* https://codepen.io/silkine/pen/jldif */
-
 body {
-  background: #f9f7f1;
+  background: #e8e4c9;
   font-family: 'Droid Serif', serif;
-  color: #2f2f2f;
 }
 
 .App{
-  width: 1200px;
+  width: 900px;
   height: auto;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
   border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(105px);
   margin: auto;
   margin-top: 40px;
@@ -18,26 +17,27 @@ body {
 
 header {
   padding-bottom: 20px;
-  width: 1200px;
+  width: 900px;
+  background-color: rgba(0, 0, 0, 0.845);
   backdrop-filter: blur(105px);
   border-radius: 5px;
 }
 
 h1{
+  color: aliceblue;
   text-align: center;
-  font-size: 70px;
-  border-bottom: 2px solid #2f2f2f;
+  font-size: 50px;
 }
 
 h2{
+  color: aliceblue;
   text-align: center;
   font-size: xx-large;
 }
 
 h3{
-border-top: 1.5px solid #2f2f2f;
-border-bottom: 1.5px solid #2f2f2f;
 text-align: center;
+color: aliceblue;
 }
 
 
@@ -50,7 +50,8 @@ content {
 }
 
 table {
-  padding-top: 10px;
+  padding-top: 50px;
+  background-color: #f9f7f1;
   margin: auto;
   padding-left: 100px;
   padding-right: 100px;
@@ -69,21 +70,21 @@ td {
 .by {
   border-top: 1px solid #2f2f2f;
   border-bottom: 1px solid #2f2f2f;
-  margin-left: 350px;
-  margin-right: 350px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 figcaption {
   border-top: 1px solid #2f2f2f;
   border-bottom: 1px solid #2f2f2f;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 100px;
+  margin-right: 100px;
   margin-top: 5px;
 }
 
 a {
   font-size: xx-large;
-  color: #2f2f2f;
+  color: black;
 }
 
 .btn {
@@ -93,11 +94,8 @@ a {
 
 .search {
   margin: 15px;
-  margin-left: 350px;
-  margin-right: 350px
 }
 
 img{
   max-height: 400px;
-  filter: grayscale(90%)
 }
