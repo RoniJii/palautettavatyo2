@@ -6,13 +6,6 @@ import randomInteger from 'random-int';
 import Select from 'react-select';
 import './App.css'
 
-// automobile, nyregion, techonology
-// laske uutisten määrä? 
-//  "technology",
-//filter: grayscale(100%)
-// material design
-//use effectiä ja tuota siistimmäksi kuhan on githubissa
-
 const URL = 'https://api.nytimes.com/svc/topstories/v2/'
 const json = '.json?api-key='
 const API_KEY = ''
