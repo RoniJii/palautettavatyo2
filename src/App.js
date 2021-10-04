@@ -15,7 +15,7 @@ import './App.css'
 
 const URL = 'https://api.nytimes.com/svc/topstories/v2/'
 const json = '.json?api-key='
-const API_KEY = 'DPbdZ17msGvIcBi1V0pIX44VUQ1rS4vn'
+const API_KEY = ''
 const search = ["arts", "automobiles", "books", "business", "fashion", "food", "health",
  "home", "insider", "magazine", "movies", "nyregion", "obituaries", "opinion", "politics", 
  "realestate", "science", "sports", "sundayreview", "theater", "t-magazine", 
