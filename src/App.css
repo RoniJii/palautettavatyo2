@@ -99,5 +99,6 @@ a {
 
 img{
   max-height: 400px;
+   max-width: 600px;
   filter: grayscale(90%)
 }
